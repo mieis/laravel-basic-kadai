@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;git
 use App\Models\Post;
 
 class PostController extends Controller
@@ -21,5 +21,6 @@ class PostController extends Controller
 
         // 変数$productをproducts/show.blade.phpファイルに渡す
         return view('posts.show', compact('post'));
+
     }
 }
